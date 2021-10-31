@@ -1,0 +1,246 @@
+{
+"@context": "http://schema.org",
+
+"@type": ["Recipe"]
+,"headline": "How to Make Classic Tiramisu"
+,"datePublished": "2017-11-11T04:00:27.000-05:00"
+,"dateModified": "2021-10-20T17:41:38.748-04:00"
+,"author": [
+{"@type": "Person"
+,"name": "Cindy Rahe"
+,"description": "Cindy has over 10 years experience as a recipe blogger and was a contributor at BettyCrocker.com. Cindy began contributing to Simply Recipes in 2017."
+,"sameAs": [
+"https://www.instagram.com/cindy.rahe/",
+"https://www.simplyrecipes.com/cindy-rahe-5091792"
+]
+,"knowsAbout": ["Baking"]
+,"alumniOf": [
+{
+"@type": "Organization",
+"Name": "BA Creative Writing from UNR"
+}
+]
+}
+]
+,"description": "Here&#39;s how to make tiramisu, step-by-step. Made with egg yolks, sugar, rum, mascarpone, and whipped cream, then layered with coffee-dipped ladyfingers, this classic tiramisu recipe is a great make-ahead dessert for holiday gatherings or special occasions."
+,"image": [
+{
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/SgzLOmWkK1MRfUQH-sMBnNxpMEk=/2000x1125/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__10__2017-10-28-Tiramisu-21-7de4673191d542039f47927fde4fee82.jpg",
+"height": 1125,
+"width": 2000
+},
+{
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/qHM8o0XCZuP9Sg3YwgmcbHMo8I0=/1777x1333/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__10__2017-10-28-Tiramisu-21-7de4673191d542039f47927fde4fee82.jpg",
+"height": 1333,
+"width": 1777
+},
+{
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/XJpv2jQbIkK9UZo80frDsbIMZWw=/1333x1333/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__10__2017-10-28-Tiramisu-21-7de4673191d542039f47927fde4fee82.jpg",
+"height": 1333,
+"width": 1333
+}
+]
+,"video": {
+"@type": "VideoObject",
+"contentUrl": "https://cdn.jwplayer.com/videos/A2821k4o-tXzwfO7V.mp4",
+"description": "Here's how to make a classic tiramisu, step-by-step. Made with whipped egg yolks, sugar, rum, mascarpone, and whipped cream, layered with coffee-dipped ladyfingers. Great make-ahead dessert for Christmas, Thanksgiving, and holiday parties.",
+"duration": "PT1M36S",
+"name": "How to Make Classic Tiramisu",
+"thumbnailUrl": "https://cdn.jwplayer.com/v2/media/A2821k4o/poster.jpg?width=720",
+"uploadDate": "2021-01-21T11:09:29.053Z"}
+,"publisher": {
+"@type": "Organization",
+"name": "Simply Recipes",
+"url": "https://www.simplyrecipes.com",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/QvixEwCD02s_lnkgkVb6mHwKS7c=/1125x320/filters:no_upscale():max_bytes(150000):strip_icc()/SimplyRecipesLogoTransparent-07a297c54b2142ae9c079abb2f0fa639.png",
+"width": 1125,
+"height": 320
+},
+"brand": "Simply Recipes"
+, "publishingPrinciples": "https://www.simplyrecipes.com/about-us-5096129#editorial-guidelines"
+}
+,"name": "How to Make Classic Tiramisu"
+,"aggregateRating": {
+"@type": "AggregateRating",
+"ratingValue": "4.3",
+"ratingCount": "33"
+}
+,"cookTime": "PT5M"
+,"keywords": "How To, Make-ahead, Dessert, Christmas, Holiday, Italian"
+,"nutrition": {
+"@type": "NutritionInformation"
+,"calories": "499 kcal"
+,"carbohydrateContent": "38 g"
+,"cholesterolContent": "275 mg"
+,"fiberContent": "0 g"
+,"proteinContent": "9 g"
+,"saturatedFatContent": "18 g"
+,"sodiumContent": "254 mg"
+,"sugarContent": "24 g"
+,"fatContent": "33 g"
+,"servingSize": "About 9 servings"
+,"unsaturatedFatContent": "0 g"
+}
+,"prepTime": "PT40M"
+, "recipeCategory": ["Dessert","How To","Make-ahead"]
+,"recipeCuisine": ["Italian"]
+,"recipeIngredient": [
+"6 large egg yolks",
+"1 cup (200 grams) sugar, divided",
+"3 ounces (6 tablespoons) dark rum, divided",
+"1 1/2 cups (12 oz) mascarpone cheese, cold from the fridge",
+"1 cup heavy whipping cream, cold from the fridge",
+"1 cup boiling water",
+"1 tablespoon  instant espresso powder",
+"1 (7-ounce) package ladyfingers",
+"Cocoa powder for dusting the top" ]
+,"recipeInstructions": [
+{
+"@type": "HowToStep"
+,"text": "Prep the dish: Lightly oil an 8x8-inch baking dish."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/6v9JpcsLMSjNrs1Gfe2zlnQKaJs=/1200x800/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__10__2017-10-28-Tiramisu-1-ba36cc72cd9a45a19f666060253d7857.jpg",
+"height": 800,
+"width": 1200
+}
+,"text": "Whisk the yolks and sugar to make the zabaglione: Set a large heatproof bowl over a pan of simmering water to create a double boiler (the bowl should rest on the rim of the pan and the bottom should not touch the surface of the water). Whisk together the egg yolks and 3/4 cup of the sugar in the bowl. Continue whisking until the sugar has dissolved, the mixture has increased slightly in volume, and it looks light yellow color. Not sure? Rub a little of the mixture between two fingers (it will be warm, but not too hot to touch) – it should feel smooth and silky; if you feel any sugar granules, keep whisking."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/uHkL-OsrGfo6u6Kfd-hh35xr9dg=/1200x800/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__10__2017-10-28-Tiramisu-2-2c668086b14746fcb9e14cf8140f2510.jpg",
+"height": 800,
+"width": 1200
+}
+,"text": "Add in the rum: Gradually whisk in 2 ounces (4 tablespoons) of the rum and continue whisking rapidly over the double boiler for about 10 minutes, until the mixture is thick, foamy, and very pale yellow. (You can also use a hand mixer for this step, if you prefer.) Remove the bowl from the double boiler and set aside until cooled to at least 90°F or room temperature."
+} ,{
+"@type": "HowToStep"
+,"text": "Whip the mascarpone and cream: You can use either a hand mixer or a stand mixer with a whisk attachment for this step. If using a stand mixer, be very attentive and do not walk away while the mascarpone is whipping. Stand mixers are so powerful, that it&#39;s easy to overwhip, which causes the mascarpone to separate. You have a little more wiggle room with a hand mixer. With a hand mixer or in the bowl of a stand mixer with a whisk attachment, beat the mascarpone on medium speed for 15 to 30 seconds, until it smooths out and softens. Be careful not to over-beat or else the mascarpone will separate and become grainy. With the mixer still on medium speed, gradually add the cream in a thin, slow stream until it&#39;s all incorporated. This should take 1 to 2 minutes. Stop the mixer and scrape down the bowl. Continue beating with the mixer on medium-high speed for another 30 to 60 seconds, until the mixture holds firm, not-quite-stiff peaks."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/erSccBdDZdb-AZGQpHKv8L39mes=/1200x800/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__10__2017-10-28-Tiramisu-4-28736fc903e74fd29458b3a528f6f9d7.jpg",
+"height": 800,
+"width": 1200
+}
+,"text": "Mix the whipped cream and the zabaglione: Fold 1/3 of the whipped cream into the zabaglione to lighten it, then fold in the remaining whipped cream."
+} ,{
+"@type": "HowToStep"
+,"text": "Make the coffee dipping liquid for the ladyfingers: In a wide, shallow dish, whisk the remaining 1/4 cup sugar with the remaining 1 ounce (2 tablespoons) of rum, the boiling water, and the espresso powder. Stir to dissolve the sugar and espresso."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/XKTuW_j0dcdHtzyndZN1fF4PGnc=/1200x800/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__10__2017-10-28-Tiramisu-5-9a4840e928404ca785129511d1398f43.jpg",
+"height": 800,
+"width": 1200
+}
+,"text": "Assemble the tiramisu: Dunk one ladyfinger at a time in the espresso liquid, turning it so that all sides are evenly moistened — a quick dunk is all you need; any more and the ladyfingers start to disintegrate. Arrange the dunked ladyfingers in rows on the bottom of the baking dish. Once you finish the layer, spread 1/2 of the mascarpone mixture over the top. Repeat dunking and arranging a second layer, and spread the remaining mascarpone over top."
+} ,{
+"@type": "HowToStep"
+,"text": "Chill the tiramisu: Cover the tiramisu and refrigerate for at least 8 hours or up to 24 hours to give the tiramisu time to firm up and for the ladyfingers to soften."
+} ,{
+"@type": "HowToStep"
+,"image": {
+"@type": "ImageObject",
+"url": "https://www.simplyrecipes.com/thmb/UjTjfsXSklYEGI9Cw9EQqQOqM9Y=/1600x2240/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2017__10__2017-10-28-Tiramisu-10-494b14e77b8742119d7eabfb70f3d38d.jpg",
+"height": 2240,
+"width": 1600
+}
+,"text": "Serve: Dust with cocoa before serving. Serve in wedges directly from the pan. Leftovers will keep for about 5 days."
+} ]
+,"recipeYield": "9"
+,"totalTime": "PT525M"
+,"review": [
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Scarlet"
+},
+"reviewBody": "I just tossed an entire batch of zabaglione, mascarpone, and cream... none of the other recipes I have seen mentioned that the zabaglione needed to cool off, and my mixture curdled. So sad. Thank you so much for the tip about whipping the mascarpone and cream first while letting the zabaglione cool off. The next one was perfection!"
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Valerie Li"
+},
+"reviewBody": "Hi. How do I adjust ingredients for 6 inch round pan?"
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Afiza"
+},
+"reviewBody": "I made this. Still in the fridge. Havent tasted it yet but it looks promising. Read in the comment to soak the ladyfingers longer in the coffee, if you're using Forno Bonomi Savoiardi Ladyfingers, please don't soak it too long. It absorbs liquid real fast. I was so afraid of overbeating the cream and mascarpone, turned out it took me longer that 30-60 seconds to get the peak. The whole portion is quite big for my baking dish."
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Jenny"
+},
+"reviewBody": "Looks great but can I use brewed expresso as i cant find instant"
+}
+,
+{
+"@type": "Review",
+"author": {
+"@type": "Person",
+"name": "Mike"
+},
+"reviewBody": "I don't drink so I added milk instead of the rum, This tastes perfect best One I have had If possible id like a 9x13 recipe for this :) ,."
+}
+]
+,"mainEntityOfPage": {
+"@type": ["WebPage"]
+,"@id": "https://www.simplyrecipes.com/recipes/how_to_make_classic_tiramisu/"
+,"breadcrumb": {
+"@type": "BreadcrumbList",
+"itemListElement": [
+{
+"@type": "ListItem",
+"position": 1,
+"item": {
+"@id": "https://www.simplyrecipes.com/recipes-5090746",
+"name": "Recipes"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 2,
+"item": {
+"@id": "https://www.simplyrecipes.com/dessert-recipes-5091513",
+"name": "Desserts"
+}
+}
+,
+{
+"@type": "ListItem",
+"position": 3,
+"item": {
+"@id": "https://www.simplyrecipes.com/recipes/how_to_make_classic_tiramisu/",
+"name": "Tiramisu Recipe, How to Make Classic Tiramisu"
+}
+}
+]
+}
+}
+, "about": [
+]		
+}

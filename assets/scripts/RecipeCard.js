@@ -1,8 +1,8 @@
 class RecipeCard extends HTMLElement {
   constructor() {
-    // Part 1 Expose - TODO
-
-    // You'll want to attach the shadow DOM here
+    // Part 1 Expose
+    super();
+    this.shadow = this.attachShadow({mode: 'open'}); // attach the shadow DOM to the object
   }
 
   set data(data) {
@@ -96,10 +96,85 @@ class RecipeCard extends HTMLElement {
     //    element.appendChild()
     //    & All of the helper functions below
 
-    // Make sure to attach your root element and styles to the shadow DOM you
-    // created in the constructor()
+    // Part 1 Expose
 
-    // Part 1 Expose - TODO
+    /* ********************** Image ********************** */
+    let thumbnail = document.createElement('img');
+    let imgLink = searchForKey(data, 'thumbnailUrl');
+    thumbnail.setAttribute('src', imgLink);
+    card.appendChild(thumbnail);
+
+    /* ********************** Title ********************** */
+    let title = document.createElement('p');
+    title.setAttribute('class', 'title');
+
+    let titleLink = document.createElement('a');
+    titleLink.setAttribute('href', getUrl(data));
+    titleLink.textContent = searchForKey(data, 'headline');
+
+    title.appendChild(titleLink);
+    card.appendChild(title);
+
+    /* ******************* Organization ******************* */
+    let org = document.createElement('p');
+    org.setAttribute('class', 'organization');
+    org.textContent = getOrganization(data);
+    card.appendChild(org);
+
+    /* ********************** Rating ********************** */
+    let rating = document.createElement('div');
+    rating.setAttribute('class', 'rating');
+    let stars = document.createElement('img');
+    let reviews = document.createElement('span');
+    let numOfReviews = document.createElement('span');
+
+    let ratingScore = searchForKey(data,'ratingValue');
+    if (ratingScore){
+      reviews.textContent = ratingScore;
+      numOfReviews.textContent = '('+searchForKey(data,'ratingCount')+')';
+      
+      if (ratingScore < 0.55){
+        stars.setAttribute('src','assets/images/icons/0-star.svg');
+      } else if (ratingScore < 1.55){
+        stars.setAttribute('src','assets/images/icons/1-star.svg');
+      } else if (ratingScore < 2.55){
+        stars.setAttribute('src','assets/images/icons/2-star.svg');
+      } else if (ratingScore < 3.55){
+        stars.setAttribute('src','assets/images/icons/3-star.svg');
+      } else if (ratingScore < 4.55){
+        stars.setAttribute('src','assets/images/icons/4-star.svg');
+      } else {
+        stars.setAttribute('src','assets/images/icons/5-star.svg');
+      }
+
+      rating.append(stars);
+      rating.append(reviews);
+      rating.append(numOfReviews);
+
+    } else{
+      reviews.textContent = 'No Reviews';
+      rating.append(reviews);
+    }
+
+    card.appendChild(rating);
+
+    /* ********************** Time ********************** */
+    let time = document.createElement('time');
+    time.textContent = convertTime(searchForKey(data, 'totalTime'));
+    card.appendChild(time);
+
+    /* ********************* Ingredients ********************* */
+    let ingList = document.createElement('p');
+    ingList.setAttribute('class', 'ingredients');
+    ingList.textContent = createIngredientList(searchForKey(data, 'recipeIngredient'));
+    card.appendChild(ingList);
+
+
+    // Make sure to attach your root element and styles to the shadow DOM 
+    // you created in the constructor()
+    this.shadow.appendChild(card);
+    this.shadow.appendChild(styleElem);
+
   }
 }
 

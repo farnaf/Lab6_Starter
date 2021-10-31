@@ -5,7 +5,10 @@
 const recipes = [
   'https://introweb.tech/assets/json/ghostCookies.json',
   'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json'
+  'https://introweb.tech/assets/json/chocolateChip.json',
+  'assets/recipes/lemonBlueberryTart.json',
+  'assets/recipes/yogurtParfait.json',
+  'assets/recipes/tiramisu.json'
 ];
 
 // Once all of the recipes that were specified above have been fetched, their
@@ -42,7 +45,15 @@ async function fetchRecipes() {
     // For part 2 - note that you can fetch local files as well, so store any JSON files you'd like to fetch
     // in the recipes folder and fetch them from there. You'll need to add their paths to the recipes array.
 
-    // Part 1 Expose - TODO
+    // Part 1 Expose
+    recipes.forEach(link => {
+      fetch(link).then(response => response.json()).then(data => {
+        recipeData[link] = data;
+        if(Object.keys(recipeData).length == recipes.length){
+          resolve(true);
+        }
+      }).catch(error => { reject(false); });
+    });
   });
 }
 
@@ -53,7 +64,16 @@ function createRecipeCards() {
   // three recipes we give you, you'll use the bindShowMore() function to
   // show any others you've added when the user clicks on the "Show more" button.
 
-  // Part 1 Expose - TODO
+  // Part 1 Expose 
+  let main = document.querySelector('main');
+  let counter = 0;
+  recipes.forEach(link => {
+    if (counter == 3){ return; }
+    let recipe = document.createElement('recipe-card');
+    recipe.data = recipeData[link];
+    main.appendChild(recipe);
+    counter += 1;
+  });
 }
 
 function bindShowMore() {
@@ -64,5 +84,30 @@ function bindShowMore() {
   // display it or not, so you don't need to fetch them again. Simply access them
   // in the recipeData object where you stored them/
 
-  // Part 2 Explore - TODO
+  // Part 2 Explore
+  let button = document.querySelector('button');
+  let main = document.querySelector('main');
+
+  button.addEventListener('click', () => {
+    if (button.textContent == 'Show more'){
+      button.textContent = 'Show less';
+      document.querySelector('#button-wrapper img').style.transform = 'rotate(180deg)';
+      
+      let counter = 1;
+      recipes.forEach(path => {
+        if (counter > 3){
+          let recipe = document.createElement('recipe-card');
+          recipe.data = recipeData[path];
+          main.appendChild(recipe);
+        }
+        counter += 1;
+      })
+    } else if (button.textContent == 'Show less'){
+      button.textContent = 'Show more';
+      document.querySelector('#button-wrapper img').style.transform = 'rotate(0deg)';
+      for (let i = 0; i < recipes.length - 3; i++){
+        main.removeChild(main.lastElementChild);
+      }
+    }
+  })
 }
